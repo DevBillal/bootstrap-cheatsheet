@@ -1,0 +1,157 @@
+.fff{
+background: #c6ced1;
+border: 1px solid #177600;
+border-radius: 5px;
+color:#000;
+text-align: center;
+}
+.mark, mark {
+padding: .2em;
+background-color: #eff800;
+}
+ .mybox{
+display: inline-block;
+background-color:#becacc;
+height:80px;
+width:80px;
+        }
+
+body{
+    position: relative;
+    border-right: #ddd;
+    border-left:#ddd;
+}
+
+#jump-top{
+    height: 40px;
+    margin-bottom:20px;
+}
+
+#jump-top:hover{
+    height:50px;
+    background-color:rgba(79, 87, 219, 0.69);
+    border-radius:33px;
+    margin-bottom:30px;
+    transition: .1s;
+}
+
+#h2{
+    margin-top:36px;
+    font-size: 160px;
+      color:rgb(170, 252, 255);
+}
+
+#h3{
+font-size: 40px; 
+color: #ffffff;   
+}
+#card-body{
+background-color:rgba(66, 68, 88, 0.52);
+        overflow: hidden;
+}
+
+#sticky-bar,h2,p,button{
+     background-color: rgba(158, 159, 165, 0);
+    font-family:arial;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: .2s;
+}
+
+#sticky-bar:hover{
+    border:3px solid #39d6a6;
+    background-color: #3c9be0;
+}
+
+
+/**responsive header***/
+@media(max-width:544px){
+    #h2{
+        font-size:45px;
+      color:rgb(170, 252, 255);
+    }
+    #h3{
+        font-size: 16px;
+        color:#ffffff;
+    }
+    #card-img{
+    height:260px;
+    overflow: hidden;
+    }
+    #card-body{
+background-color:rgba(66, 68, 88, 0.52);
+        padding-top:26px;
+    }
+}
+
+
+
+
+
+/**responsive 2 header***/
+@media(min-width:545px) and (max-width:750px){
+    #h2{
+        font-size:50px;
+      color:rgb(170, 252, 255);
+    }
+    #h3{
+        font-size: 20px;
+        color:#fff;
+    }
+    #card-img{
+    height:300px;
+    overflow: hidden;
+    }
+    #card-body{
+background-color:rgba(66, 68, 88, 0.52);
+        padding-top:30px;
+    }
+}
+
+
+/**responsive 3 header***/
+@media(min-width:751px) and (max-width:984px){
+    #h2{
+        font-size:85px;
+      color:rgb(170, 252, 255);
+    }
+    #h3{
+        font-size: 30px;
+        color:#fff;
+    }
+    #card-img{
+    height:400px;
+    overflow: hidden;
+    }
+    #card-body{
+background-color:rgba(66, 68, 88, 0.52);
+        padding-top:36px;
+    }
+}
+
+
+/**responsive 4 header***/
+@media(min-width:985px) and (max-width:1350px){
+    #h2{
+        font-size:100px;
+      color:rgb(170, 252, 255);
+    }
+    #h3{
+        font-size: 50px;
+        color:#fff;
+    }
+    #card-img{
+
+    height:400px;
+    overflow: hidden;
+    }
+    #card-body{
+background-color:rgba(66, 68, 88, 0.52);
+        padding-top:36px;
+    }
+}
+
+
+
+
+
